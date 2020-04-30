@@ -8,7 +8,7 @@ header {height: 75px;
         justify-content: center; 
         font-family: 'silence_rockenregular', Arial, sans-serif;
         font-weight: bold;
-        background: rgba(0,0,0,0.2)}
+        background: rgba(0,0,0,0.2);}
 
 button {color: orchid;
     font-family: 'silence_rockenregular', Arial, sans-serif;
@@ -30,11 +30,7 @@ button:hover {
 #nikelogo {height: 60px;
 width: auto;
 background: rgba(0,0,0,0);
-position: fixed;
+position: absolute;
 top: 0px;
 left: 0px}
 
-@media only screen and (min-device-width:320px) and (max-device-width:480px) {body { 
-    background: #999;
-    width: 100%
-}}
